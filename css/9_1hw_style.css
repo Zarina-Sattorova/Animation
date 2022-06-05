@@ -1,0 +1,65 @@
+.box{
+    width: 100%;
+    height: 600px;
+    background-color: dimgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gif{
+    width: 200px;
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.rectangle{
+    width: 30px;
+    height: 100%;
+    background-color: white;
+    animation-name: animation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.rectangle:nth-child(2){
+    animation-delay: 0.1s;
+}
+.rectangle:nth-child(3){
+    animation-delay: 0.2s;
+}
+.rectangle:nth-child(4){
+    animation-delay: 0.3s;
+}
+.rectangle:nth-child(5){
+    animation-delay: 0.4s;
+}
+
+
+
+@keyframes animation {
+    22%{
+        transform: scaleY(1.8);
+    }
+    54%{
+        transform: scaleY(1);
+    }
+    /*20%{ transform: scaleY(1.5);*/
+    /*}*/
+    /*40%{*/
+    /*    transform: scaleY(1.5);*/
+    /*}*/
+    /*60%{*/
+    /*    transform: scaleY(1.5);*/
+    /*}*/
+    /*80%{*/
+    /*    transform: scaleY(1.5);*/
+    /*}*/
+    /*100%{*/
+    /*    transform: scaleY(1.5);*/
+    /*}*/
+}
+
+
